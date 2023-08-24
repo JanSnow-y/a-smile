@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ASmile.App.Entity {
+    public class Step {
+    }
+
+    public partial class EntityFactory {
+        public static Step Step() {
+            return new Step();
+        }
+    }
+}
